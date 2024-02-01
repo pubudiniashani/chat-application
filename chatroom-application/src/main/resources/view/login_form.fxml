@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="600.0">
+         <image>
+            <Image url="@../icon/artistic-blurry-colorful-wallpaper-background_58702-8551.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="80.0" layoutY="26.0" prefHeight="30.0" prefWidth="153.0" text="Live Chat">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLogin" layoutX="431.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnLoginOnAction" opacity="0.84" prefHeight="45.0" prefWidth="101.0" style="-fx-background-radius: 20; -fx-background-color: #686de0;" text="Login " textFill="#f8f3f3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtUsername" layoutX="80.0" layoutY="330.0" prefHeight="45.0" prefWidth="298.0" promptText="User Name" style="-fx-background-radius: 15;">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="45.0" fitWidth="38.0" layoutX="25.0" layoutY="18.0">
+         <image>
+            <Image url="@../icon/group.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="185.0" layoutY="85.0">
+         <image>
+            <Image url="@../icon/log.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
